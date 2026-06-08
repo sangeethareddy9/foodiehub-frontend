@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "sangeetha",
+      "email": "sangeetha@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "sangeetha",
+      "email": "sangeethachirla9@gmail.com",
+      "password": "987654",
+      "id": "mvJ2LzcInrw"
+    },
+    {
+      "name": "sangeetha",
+      "email": "sangeethachirla9@gmail.com",
+      "password": "123456",
+      "id": "wObIpMegrk4"
+    },
+    {
+      "name": "sangeetha",
+      "email": "sangeethachirla9@gmail.com",
+      "password": "sangeetha@12",
+      "id": "u3PDEEJAGV0"
+    },
+    {
+      "name": "sangeetha",
+      "email": "sangeethachirla9@gmail.com",
+      "password": "123456",
+      "id": "lY50V2k9U_s"
+    },
+    {
+      "name": "sangeetha",
+      "email": "sangeethachirla9@gmail.com",
+      "password": "Sanreddy@12",
+      "id": "ck8NBDKMgV8"
+    }
+  ],
+  "foods": [
+    {
+      "id": "1",
+      "name": "Hyderabadi Biryani",
+      "cuisine": "Indian",
+      "category": "Main Course",
+      "image": "https://images.unsplash.com/photo-1701579231349-d7459c40919d",
+      "description": "Hyderabadi Biryani is a famous rice dish cooked with aromatic spices and chicken.",
+      "rating": 4.8,
+      "price": 250,
+      "calories": "650 kcal",
+      "origin": "Hyderabad",
+      "famousFor": "Spicy rice and chicken",
+      "ingredients": [
+        "Rice",
+        "Chicken",
+        "Spices",
+        "Onions"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Pizza",
+      "cuisine": "Italian",
+      "category": "Fast Food",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591",
+      "description": "Pizza is a delicious Italian dish made with cheese, sauce and toppings.",
+      "rating": 4.7,
+      "price": 399,
+      "calories": "700 kcal",
+      "origin": "Italy",
+      "famousFor": "Cheese and toppings",
+      "ingredients": [
+        "Cheese",
+        "Tomato",
+        "Flour",
+        "Olives"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Burger",
+      "cuisine": "American",
+      "category": "Fast Food",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+      "description": "Burger is a popular fast food made with buns, patty, vegetables and sauces.",
+      "rating": 4.6,
+      "price": 180,
+      "calories": "550 kcal",
+      "origin": "America",
+      "famousFor": "Juicy patty",
+      "ingredients": [
+        "Bun",
+        "Patty",
+        "Cheese",
+        "Lettuce"
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
