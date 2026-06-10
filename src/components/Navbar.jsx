@@ -8,6 +8,10 @@ function Navbar() {
     (state) => state.favorites
   );
 
+  const cart = useSelector(
+    (state) => state.cart
+  );
+
   return (
     <nav>
       <Link to="/">Home</Link>
@@ -17,6 +21,16 @@ function Navbar() {
       <Link to="/favorites">
         Favorites ({favorites.length})
       </Link>
+
+      <Link to="/cart">
+        Cart ({cart.length})
+      </Link>
+
+      {user && (
+        <Link to="/my-orders">
+          My Orders
+        </Link>
+      )}
 
       {!user && (
         <>

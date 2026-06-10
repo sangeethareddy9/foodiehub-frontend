@@ -10,6 +10,8 @@ import Login from "../pages/Login";
 import Logout from "../pages/Logout";
 import Favorites from "../pages/Favorites";
 import ProtectedRoute from "./ProtectedRoute";
+import Cart from "../pages/Cart";
+import MyOrders from "../pages/MyOrders";
 
 function AppRoutes() {
   return (
@@ -32,14 +34,16 @@ function AppRoutes() {
         }
       />
 
+      <Route path="/cart" element={<Cart />} />
+
       <Route
-        path="/edit-food/:id"
-        element={
-          <ProtectedRoute>
-            <EditFood />
-          </ProtectedRoute>
-        }
-      />
+      path="/my-orders"
+     element={
+     <ProtectedRoute>
+      <MyOrders />
+       </ProtectedRoute>
+     }
+     />
 
       <Route
         path="/favorites"
@@ -60,6 +64,11 @@ function AppRoutes() {
         path="/logout"
         element={<Logout />}
       />
+
+      <Route 
+      path="/cart" 
+      element={<Cart />} />
+
     </Routes>
   );
 }
